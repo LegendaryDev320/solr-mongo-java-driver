@@ -6,6 +6,7 @@ I found some issues here but not working properly. I will update soon.
 2. copy these 2 jar files on test_core/lib
 3. add data-config.xml to your core like on test_core.
 4. Here is another sample for data_config.xml
+   ```xml
    <?xml version="1.0" encoding="UTF-8" ?>
    <dataConfig>
         <dataSource name="MyMongo" type="MongoDataSource" database="Inventory" />
@@ -23,6 +24,6 @@ I found some issues here but not working properly. I will update soon.
             </entity>
         </document>
     </dataConfig>
-5. Added refernece urls here.
+6. Added refernece urls here.
    https://github.com/james75/SolrMongoImporter?tab=readme-ov-file
    https://github.com/GuilhermeViterboGalvao/solrMongoDBDataImporter?tab=readme-ov-file
