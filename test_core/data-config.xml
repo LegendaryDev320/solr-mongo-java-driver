@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataConfig>
+     <dataSource name="MyMongo" type="MongoDataSource" database="quiz-test-builder" />
+     <document name="quizzes">
+         <entity processor="MongoEntityProcessor"
+                 query="{}"
+                 collection="ProductData"
+                 name="quizzes"
+                 >
+             <field column="title"           name="title"     />
+             <field column="published"     name="published" />
+         </entity>
+     </document>
+ </dataConfig>
